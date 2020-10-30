@@ -4,7 +4,7 @@
 
 ## Getting status of FreeBSD services for Vulture3 using Telegraf+InfluxDB+Grafana
 
-![Alt text](hhttps://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/services_grafana.png?raw=true "Vulture - NOC - Services")
+![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/services_grafana.png?raw=true "Vulture - NOC - Services")
 ![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/services_grafana1.png?raw=true "Vulture - NOC - Services")
 
 Main goal of this easy script is checking list of given FreeBSD services and sending their status 
