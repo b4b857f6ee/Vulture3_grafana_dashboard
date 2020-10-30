@@ -1,0 +1,11 @@
+{
+"httpd" : ["daemon","vlt-gui","vlt-portal"],
+"mongod" : ["mongodb"],
+"sshd" : ["root"],
+"rsyslogd" : ["root"],
+"ntpd" : ["ntpd"],
+"redis-sentinel" : ["root"],
+"redis-server" : ["redis"],
+"pflogd" : ["_pflogd","root"],
+"haproxy" : ["daemon"]
+}
