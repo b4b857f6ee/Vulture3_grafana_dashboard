@@ -9,6 +9,8 @@
 ![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/services_grafana.png?raw=true "Vulture - NOC - Services")
 ![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/services_grafana1.png?raw=true "Vulture - NOC - Services")
 
+You can use the little dashboard below the "UP" to configure alert.
+
 Main goal of this easy script is checking list of given FreeBSD services and sending their status 
 including Up/Down time in to InfluxDB and Grafana dashboards.
   
