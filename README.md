@@ -49,3 +49,14 @@ Telegraf configuration:
       "service"
     ]
 ```
+
+## Configure ELK
+
+Please create an ELK docker or server.
+
+Configure your Vulture 3 by adding a repository with Index Name : vultures-access and Type Name : vulture-access
+Configure your App to send logs into ELK.
+
+Configure Grafana Datasource (Name it with 'vulture' inside the name) for ELK with your ELK IP and port, Index name : vulture* and for the time field name : timestamp
+
+Import the Dashboard :)
