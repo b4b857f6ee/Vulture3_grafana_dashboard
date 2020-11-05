@@ -60,3 +60,28 @@ Configure your App to send logs into ELK.
 Configure Grafana Datasource (Name it with 'vulture' inside the name) for ELK with your ELK IP and port, Index name : vulture* and for the time field name : timestamp
 
 Import the Dashboard :)
+
+
+## Packet Filter
+
+![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/images/Vulture_Packet_Filter1.PNG?raw=true "Vulture - Packet Filter")
+
+## Report Access1
+
+![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/images/Vulture_Report_Access1.PNG?raw=true "Vulture - Report Access1")
+
+## Report Access2
+
+![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/images/Vulture_Report_Access2.PNG?raw=true "Vulture - Report Access2")
+
+## Report Map
+
+![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/images/Vulture_Report_Map1.PNG?raw=true "Vulture - Report Map")
+
+## Report Security1
+
+![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/images/Vulture_Report_Security1.PNG?raw=true "Vulture - Report Security1")
+
+## Report Security2
+
+![Alt text](https://github.com/b4b857f6ee/Vulture3_grafana_dashboard/blob/main/images/Vulture_Report_Security2.PNG?raw=true "Vulture - Report Security2")
