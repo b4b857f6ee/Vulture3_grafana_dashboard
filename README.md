@@ -23,8 +23,8 @@ but you still need a pip install.
 
   This script returns a Json format with services status coded by digits: 
 ```
-  active (running) = 1
-  inactive (dead) = 0
+  active (running) = 4
+  inactive (dead) = 1
 ```  
 
 so you need to convert it back to string in Grafana. 

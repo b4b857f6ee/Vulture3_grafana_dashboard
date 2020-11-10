@@ -71,7 +71,7 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": null,
-  "iteration": 1604076277197,
+  "iteration": 1605026817548,
   "links": [],
   "panels": [
     {
@@ -96,18 +96,22 @@
           "custom": {},
           "mappings": [
             {
+              "from": "0",
               "id": 0,
               "op": "=",
-              "text": "UP",
-              "type": 1,
-              "value": "1"
+              "text": "Down",
+              "to": "3",
+              "type": 2,
+              "value": "4"
             },
             {
+              "from": "3",
               "id": 1,
               "op": "=",
-              "text": "Down",
+              "text": "UP",
+              "to": "0",
               "type": 1,
-              "value": "2"
+              "value": "4"
             }
           ],
           "nullValueMode": "connected",
@@ -115,15 +119,16 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-red",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
+                "color": "dark-red",
+                "value": 1
               },
               {
-                "color": "#d44a3a"
+                "color": "dark-green",
+                "value": 4
               }
             ]
           },
@@ -207,7 +212,7 @@
           ]
         }
       ],
-      "title": "pflog",
+      "title": "Pflog",
       "type": "stat"
     },
     {
@@ -218,18 +223,22 @@
           "custom": {},
           "mappings": [
             {
+              "from": "0",
               "id": 0,
               "op": "=",
-              "text": "UP",
-              "type": 1,
-              "value": "1"
+              "text": "Down",
+              "to": "3",
+              "type": 2,
+              "value": "4"
             },
             {
+              "from": "3",
               "id": 1,
               "op": "=",
-              "text": "Down",
+              "text": "UP",
+              "to": "0",
               "type": 1,
-              "value": "2"
+              "value": "4"
             }
           ],
           "nullValueMode": "connected",
@@ -237,15 +246,16 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-red",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
+                "color": "dark-red",
+                "value": 1
               },
               {
-                "color": "#d44a3a"
+                "color": "dark-green",
+                "value": 4
               }
             ]
           },
@@ -259,7 +269,7 @@
         "x": 3,
         "y": 1
       },
-      "id": 51,
+      "id": 110,
       "interval": null,
       "links": [],
       "maxDataPoints": 100,
@@ -340,34 +350,40 @@
           "custom": {},
           "mappings": [
             {
+              "from": "0",
               "id": 0,
               "op": "=",
-              "text": "UP",
-              "type": 1,
-              "value": "1"
+              "text": "Down",
+              "to": "3",
+              "type": 2,
+              "value": "4"
             },
             {
+              "from": "0",
               "id": 1,
               "op": "=",
-              "text": "Down",
+              "text": "UP",
+              "to": "3",
               "type": 1,
-              "value": "2"
+              "value": "4"
             }
           ],
+          "max": 4,
           "nullValueMode": "connected",
           "thresholds": {
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-red",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
+                "color": "dark-red",
+                "value": 1
               },
               {
-                "color": "#d44a3a"
+                "color": "dark-green",
+                "value": 4
               }
             ]
           },
@@ -462,18 +478,20 @@
           "custom": {},
           "mappings": [
             {
-              "id": 0,
-              "op": "=",
-              "text": "UP",
-              "type": 1,
-              "value": "1"
+              "from": "0",
+              "id": 1,
+              "text": "Down",
+              "to": "3",
+              "type": 2,
+              "value": ""
             },
             {
-              "id": 1,
-              "op": "=",
-              "text": "Down",
+              "from": "",
+              "id": 2,
+              "text": "UP",
+              "to": "",
               "type": 1,
-              "value": "2"
+              "value": "4"
             }
           ],
           "nullValueMode": "connected",
@@ -481,15 +499,16 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-red",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
+                "color": "dark-red",
+                "value": 1
               },
               {
-                "color": "#d44a3a"
+                "color": "dark-green",
+                "value": 4
               }
             ]
           },
@@ -584,18 +603,20 @@
           "custom": {},
           "mappings": [
             {
-              "id": 0,
-              "op": "=",
-              "text": "UP",
-              "type": 1,
-              "value": "1"
+              "from": "0",
+              "id": 1,
+              "text": "Down",
+              "to": "3",
+              "type": 2,
+              "value": ""
             },
             {
-              "id": 1,
-              "op": "=",
-              "text": "Down",
+              "from": "",
+              "id": 2,
+              "text": "UP",
+              "to": "",
               "type": 1,
-              "value": "2"
+              "value": "4"
             }
           ],
           "nullValueMode": "connected",
@@ -603,15 +624,16 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-red",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
+                "color": "dark-red",
+                "value": 1
               },
               {
-                "color": "#d44a3a"
+                "color": "dark-green",
+                "value": 4
               }
             ]
           },
@@ -625,7 +647,7 @@
         "x": 9,
         "y": 1
       },
-      "id": 53,
+      "id": 115,
       "interval": null,
       "links": [],
       "maxDataPoints": 100,
@@ -710,14 +732,14 @@
               "op": "=",
               "text": "UP",
               "type": 1,
-              "value": "1"
+              "value": "4"
             },
             {
               "id": 1,
               "op": "=",
               "text": "Down",
               "type": 1,
-              "value": "2"
+              "value": "5"
             }
           ],
           "nullValueMode": "connected",
@@ -725,15 +747,11 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-green",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
-              },
-              {
-                "color": "#d44a3a"
+                "color": "dark-red"
               }
             ]
           },
@@ -832,14 +850,14 @@
               "op": "=",
               "text": "UP",
               "type": 1,
-              "value": "1"
+              "value": "4"
             },
             {
               "id": 1,
               "op": "=",
               "text": "Down",
               "type": 1,
-              "value": "2"
+              "value": "5"
             }
           ],
           "nullValueMode": "connected",
@@ -847,15 +865,11 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-green",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
-              },
-              {
-                "color": "#d44a3a"
+                "color": "dark-red"
               }
             ]
           },
@@ -869,7 +883,7 @@
         "x": 13,
         "y": 1
       },
-      "id": 55,
+      "id": 116,
       "interval": null,
       "links": [],
       "maxDataPoints": 100,
@@ -939,7 +953,7 @@
           ]
         }
       ],
-      "title": "Pflog root",
+      "title": "Pflogd root",
       "type": "stat"
     },
     {
@@ -954,14 +968,14 @@
               "op": "=",
               "text": "UP",
               "type": 1,
-              "value": "1"
+              "value": "4"
             },
             {
               "id": 1,
               "op": "=",
               "text": "Down",
               "type": 1,
-              "value": "2"
+              "value": "5"
             }
           ],
           "nullValueMode": "connected",
@@ -969,15 +983,11 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-green",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
-              },
-              {
-                "color": "#d44a3a"
+                "color": "dark-red"
               }
             ]
           },
@@ -991,7 +1001,7 @@
         "x": 15,
         "y": 1
       },
-      "id": 57,
+      "id": 117,
       "interval": null,
       "links": [],
       "maxDataPoints": 100,
@@ -1061,7 +1071,7 @@
           ]
         }
       ],
-      "title": "Rsyslog",
+      "title": "Rsyslogd",
       "type": "stat"
     },
     {
@@ -1076,14 +1086,14 @@
               "op": "=",
               "text": "UP",
               "type": 1,
-              "value": "1"
+              "value": "4"
             },
             {
               "id": 1,
               "op": "=",
               "text": "Down",
               "type": 1,
-              "value": "2"
+              "value": "5"
             }
           ],
           "nullValueMode": "connected",
@@ -1091,15 +1101,11 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-green",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
-              },
-              {
-                "color": "#d44a3a"
+                "color": "dark-red"
               }
             ]
           },
@@ -1113,7 +1119,7 @@
         "x": 17,
         "y": 1
       },
-      "id": 49,
+      "id": 118,
       "interval": null,
       "links": [],
       "maxDataPoints": 100,
@@ -1183,7 +1189,7 @@
           ]
         }
       ],
-      "title": "SSH",
+      "title": "SSHD",
       "type": "stat"
     },
     {
@@ -1198,14 +1204,14 @@
               "op": "=",
               "text": "UP",
               "type": 1,
-              "value": "1"
+              "value": "4"
             },
             {
               "id": 1,
               "op": "=",
               "text": "Down",
               "type": 1,
-              "value": "2"
+              "value": "5"
             }
           ],
           "nullValueMode": "connected",
@@ -1213,15 +1219,11 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-green",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
-              },
-              {
-                "color": "#d44a3a"
+                "color": "dark-red"
               }
             ]
           },
@@ -1235,7 +1237,7 @@
         "x": 19,
         "y": 1
       },
-      "id": 85,
+      "id": 119,
       "interval": null,
       "links": [],
       "maxDataPoints": 100,
@@ -1320,14 +1322,14 @@
               "op": "=",
               "text": "UP",
               "type": 1,
-              "value": "1"
+              "value": "4"
             },
             {
               "id": 1,
               "op": "=",
               "text": "Down",
               "type": 1,
-              "value": "2"
+              "value": "5"
             }
           ],
           "nullValueMode": "connected",
@@ -1335,15 +1337,11 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#508642",
+                "color": "dark-green",
                 "value": null
               },
               {
-                "color": "#bf1b00",
-                "value": 2
-              },
-              {
-                "color": "#d44a3a"
+                "color": "dark-red"
               }
             ]
           },
@@ -1357,7 +1355,7 @@
         "x": 21,
         "y": 1
       },
-      "id": 87,
+      "id": 120,
       "interval": null,
       "links": [],
       "maxDataPoints": 100,
@@ -5419,7 +5417,7 @@
       "type": "row"
     },
     {
-      "activePatternIndex": -3,
+      "activePatternIndex": 0,
       "cacheTimeout": null,
       "datasource": "${DS_INFLUXDB}",
       "debug_mode": false,
@@ -5515,7 +5513,7 @@
           "row_name": "_1_",
           "textColors": "red|orange|green",
           "textColors_overrides": "0->red|2->green|1->yellow",
-          "thresholds": "0,1",
+          "thresholds": "1,4",
           "time_based_thresholds": [],
           "tooltipTemplate": "Series : _series_ <br/>Row Name : _row_name_ <br/>Col Name : _col_name_ <br/>Value : _value_",
           "transform_values": "n/a|Alert|Ok",
@@ -5614,7 +5612,7 @@
         "colorScheme": "interpolateGnYlRd",
         "defaultColor": "#757575",
         "exponent": 0.5,
-        "max": 1,
+        "max": 4,
         "min": 0,
         "mode": "spectrum",
         "thresholds": []
@@ -5958,5 +5956,5 @@
   "timezone": "",
   "title": "Vulture - NOC - Services",
   "uid": "cKQ6j_tGz",
-  "version": 19
+  "version": 27
 }

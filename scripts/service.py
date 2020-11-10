@@ -24,13 +24,13 @@ for app, users in items.items():
         service = '{}-{}'.format(user,app)
         infos[service] = {
             "service" : service,
-            "status": 2
+            "status": 1
         }
 
 for i in psutil.process_iter():
     service = '{}-{}'.format(i.username(),i.name())
     if service in infos.keys():
-        infos[service]["status"] = 1
+        infos[service]["status"] = 4
         infos[service]["status_time"] = int(i.create_time())
 
 print(json.dumps([x for x in infos.values()]))
